@@ -8,13 +8,13 @@ IBM Developer SF is hosting a workshop to help you gain the skills necessary to 
 
 Call for Code is a global hackathon dedicated to finding a solution for natural disasters. 
 
-What is Call for Code? :thought_balloon:
+### _What is Call for Code?_ :thought_balloon:
 
 100,000 developers from 156 nations accepted the challenge and built over 2,500 applications in 2018.
 
 Winners of Call for Code last year has won $200,000 in cash prize as well as gaining [global recognition for their work](https://youtu.be/ZXkGAokhGl8).
 
-What will you learn from the workshop? :computer: :books:
+### _What will you learn from the workshop?_ :computer: :books:
 
 During the workshop, we will be:
 1. sharing more information about Call for Code
