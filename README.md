@@ -1,4 +1,4 @@
-# sjsu-workshop
+# sjsu-workshop (March 26, 2019)
 We will learn how to integrate weather insights with a chatbot. The user of the chatbot will be able to get the weather conditions of a location by entering it in the bot.
 
 At the end of the workshop, we will have learned how to -
