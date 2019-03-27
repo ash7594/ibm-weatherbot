@@ -6,7 +6,7 @@
 
 IBM Developer SF is hosting a workshop to help you gain the skills necessary to enter a project to [Call for Code](https://callforcode.org/).
 
-ps://developer.ibm.com/callforcode/
+## https://developer.ibm.com/callforcode/
 
 Call for Code is a global hackathon dedicated to finding a solution for natural disasters. 
 
