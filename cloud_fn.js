@@ -1,10 +1,10 @@
 const needle = require('needle');
-const BASE_URL = "https://64b10d9a-c4fd-4bf4-b8a7-4b250d4fdf8c:FVC4JakaDR@twcservice.mybluemix.net/api/weather";
+const BASE_URL = "https://ef7d6e04-03f0-4e4e-9153-72621f75f906:10EtFXaQcG@twcservice.mybluemix.net/api/weather";
 
 async function main(params) {
   try {
     let response = await needle('get', `${BASE_URL}/v3/location/search?query=${params.location}&language=en_US`, { headers: { 'accept': 'application/json' } });
-    //console.log(response.body);
+    console.log(response.body);
     
     let stateCode = null;
     let countryCode = null;
@@ -52,7 +52,7 @@ async function main(params) {
     }
     
     // Send data to map
-    response = await needle('get', `http://184.173.5.153:32000/set?lat=${lat}&lon=${lon}`, { headers: { 'accept': 'application/json' } });
+    response = await needle('get', `http://169.47.252.109:32000/set?lat=${lat}&lon=${lon}`, { headers: { 'accept': 'application/json' } });
     console.log(response.body);
     
     return {
@@ -71,4 +71,3 @@ async function main(params) {
 }
 
 exports.main = main;
-
