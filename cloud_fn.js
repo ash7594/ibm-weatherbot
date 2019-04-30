@@ -52,8 +52,8 @@ async function main(params) {
     }
     
     // Send data to map
-    response = await needle('get', `http://169.47.252.109:32000/set?lat=${lat}&lon=${lon}`, { headers: { 'accept': 'application/json' } });
-    console.log(response.body);
+    //response = await needle('get', `http://169.47.252.109:32000/set?lat=${lat}&lon=${lon}`, { headers: { 'accept': 'application/json' } });
+    //console.log(response.body);
     
     return {
       statusCode: 200,
